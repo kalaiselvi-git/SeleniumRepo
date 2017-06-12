@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
+  <test name="firefoxTestcases(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="TestPac.TestWebApp.grid">
+        <methods>
+          <include name="testgrid"/>
+          <include name="testWebApp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestPac.TestWebApp.grid -->
+    </classes>
+  </test> <!-- firefoxTestcases(failed) -->
+  <test name="chromeTestcases(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="TestPac.TestWebApp.grid">
+        <methods>
+          <include name="testgrid"/>
+          <include name="testWebApp"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestPac.TestWebApp.grid -->
+    </classes>
+  </test> <!-- chromeTestcases(failed) -->
+</suite> <!-- Failed suite [Suite] -->
