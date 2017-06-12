@@ -57,7 +57,7 @@ public class grid
 		driver.findElement(By.id("fees")).sendKeys("30000");
 		driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
 		driver.findElement(By.name("submit")).submit();
-		/*System.out.println("Title:" +driver.getTitle());
+		System.out.println("Title:" +driver.getTitle());
 		String name=driver.findElement(By.xpath("html/body/table/tbody/tr[2]/td[2]")).getText();*/
 		String title=driver.getTitle();
 		if(title.equals("Welcome"))
