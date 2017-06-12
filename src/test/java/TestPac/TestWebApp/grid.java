@@ -60,7 +60,7 @@ public class grid
 		/*System.out.println("Title:" +driver.getTitle());
 		String name=driver.findElement(By.xpath("html/body/table/tbody/tr[2]/td[2]")).getText();*/
 		String title=driver.getTitle();
-		if(title.equals("Student Detail Page"))
+		if(title.equals("Student Admission"))
 		{
 		System.out.println("******Test Case Passed,Title Verified******");
 		System.out.println("You are Navigate to the Student Detail Page");
