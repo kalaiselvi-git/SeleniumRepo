@@ -64,7 +64,11 @@ public class grid
 		{
 		System.out.println("******Test Case Passed,Title Verified******");
 		System.out.println("You are Navigate to the Student Detail Page");
-	}
+	        }
+		else
+		{
+			System.out.println("\nTest Failed");
+		}
 	}
 	
 	@AfterTest
