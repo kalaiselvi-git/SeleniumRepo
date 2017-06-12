@@ -63,7 +63,7 @@ public class grid
 		if(title.equals("Insert title here"))
 		{
 		System.out.println("******Test Case Passed,Title Verified******");
-		System.out.println("You are Navigate to the Student Detail Page");
+		System.out.println("You are Navigate to Next Page");
 	        }
 		else
 		{
