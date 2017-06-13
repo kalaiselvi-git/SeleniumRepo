@@ -9,6 +9,22 @@
 
   <name>TestWebApp</name>
   <url>http://maven.apache.org</url>
+<scm>
+     <connection>scm:git:https://github.com/kalaiselvi-git/SeleniumRepo.git</connection>
+     <url>scm:git:https://github.com/kalaiselvi-git/SeleniumRepo.git</url>
+    <tag>College-0.0.15</tag>
+</scm>
+  
+  <distributionManagement>
+  <snapshotRepository>
+    <id>nexus</id>
+    <url>http://localhost:8081/nexus/content/repositories/3rd party</url>
+    </snapshotRepository> 
+    <repository>
+        <id>MavenRelease</id>
+        <url>https://github.com/kalaiselvi-git/SeleniumRepo.git</url>
+     </repository>
+   </distributionManagement>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
