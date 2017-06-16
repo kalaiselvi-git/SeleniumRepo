@@ -17,18 +17,15 @@
   
 
   <distributionManagement>
-  <snapshotRepository>
+<repository>
     <id>Selenium_Test_Results</id>
-    <url>http://localhost:8081/nexus/content/repositories/Selenium_Test_Results/</url>
-  </snapshotRepository>
+    <url>http://localhost:8081/nexus/content/repositories/Selenium_Test_Results</url>
+  </repository>
  <!-- <snapshotRepository>
     <id>Selenium_Test_Results</id>
     <url>http://localhost:8081/nexus/content/repositories/Selenium_Test_Results/</url>
     </snapshotRepository> -->
-    <repository>
-        <id>MavenRelease</id>
-        <url>https://github.com/kalaiselvi-git/SeleniumRepo.git</url>
-     </repository>
+   
    </distributionManagement>
 
   <properties>
