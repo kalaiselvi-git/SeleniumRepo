@@ -51,10 +51,10 @@ public class grid
 	{
 		//driver.get("http://192.168.100.121:8090/SimpleWebApp");
 		driver.manage().timeouts().implicitlyWait(60,TimeUnit.SECONDS);
-		driver.findElement(By.id("name")).sendKeys("Vinu");
-		driver.findElement(By.id("rollno")).sendKeys("123");
-		driver.findElement(By.id("course")).sendKeys("MCA");
-		driver.findElement(By.id("fees")).sendKeys("30000");
+		driver.findElement(By.name("stname")).sendKeys("Vinu");
+		driver.findElement(By.name("roll")).sendKeys("123");
+		driver.findElement(By.name("course")).sendKeys("MCA");
+		driver.findElement(By.name("fees")).sendKeys("30000");
 		driver.manage().timeouts().implicitlyWait(50,TimeUnit.SECONDS);
 		driver.findElement(By.name("submit")).submit();
 		/*System.out.println("Title:" +driver.getTitle());
