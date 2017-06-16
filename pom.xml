@@ -19,7 +19,7 @@
   <distributionManagement>
   <snapshotRepository>
     <id>1001</id>
-    <url>http://localhost:8081/nexus/content/repositories/1001</url>
+    <url>http://localhost:8081/nexus/content/repositories/1001/</url>
   </snapshotRepository>
  <!-- <snapshotRepository>
     <id>Selenium_Test_Results</id>
