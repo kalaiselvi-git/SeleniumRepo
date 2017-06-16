@@ -18,7 +18,7 @@
   <distributionManagement>
   <snapshotRepository>
     <id>nexus</id>
-    <url>http://localhost:8081/nexus/content/repositories/3rd party</url>
+    <url>http://localhost:8081/nexus/content/repositories/Selenium Test Results</url>
     </snapshotRepository> 
     <repository>
         <id>MavenRelease</id>
