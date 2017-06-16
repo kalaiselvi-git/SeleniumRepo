@@ -22,7 +22,7 @@ public class grid
 	if(browser.equalsIgnoreCase("firefox"))
 	{
 		System.out.println("Executing on Firefox");
-		String Node="http://182.19.39.173:4448/wd/hub";
+		String Node="http://182.19.39.173:3334/wd/hub";
 		DesiredCapabilities cap=DesiredCapabilities.firefox();
 		                                                                                                                                                                                                                                                                                               
 		cap.setBrowserName("firefox");
@@ -36,7 +36,7 @@ public class grid
 	{
 		System.out.println("Executing on Chrome");
 		//System.setProperty("webdriver.chrome.driver","C:\\Driver\\chromedriver_2.28.exe");
-		String Node="http://182.19.39.173:4449/wd/hub";
+		String Node="http://182.19.39.173:3335/wd/hub";
 		DesiredCapabilities cap=DesiredCapabilities.chrome();
 		cap.setBrowserName("chrome");
 		cap.setPlatform(Platform.WIN10);
