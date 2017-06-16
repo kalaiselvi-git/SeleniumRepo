@@ -15,10 +15,9 @@
     <tag>College-0.0.15</tag>
 </scm>
   
-  <distributionManagement>
   <snapshotRepository>
-    <id>nexus</id>
-    <url>http://localhost:8081/nexus/content/repositories/Selenium Test Results</url>
+    <id>Selenium_Test_Results</id>
+    <url>http://localhost:8081/nexus/content/repositories/Selenium_Test_Results/</url>
     </snapshotRepository> 
     <repository>
         <id>MavenRelease</id>
