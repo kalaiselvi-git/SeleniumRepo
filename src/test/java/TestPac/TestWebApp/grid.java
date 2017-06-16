@@ -74,7 +74,7 @@ public class grid
 	@AfterTest
 	public void closeBrowser()
 	{
-		//driver.quit();
+		driver.quit();
 	}
 }
 
